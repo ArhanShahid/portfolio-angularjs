@@ -1,0 +1,25 @@
+/*=====================*/
+/*     CSS override   */
+/*=====================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.full {
+    background: url(../img/kietMunCover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
