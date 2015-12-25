@@ -15,11 +15,28 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'construthinvism';
+    /*src: url('http://www.fontsaddict.com/fontface/akashi.ttf');*/
+    src: url('../fonts/construthinvism.ttf');
+}
+.fontAkashi{
+    font-family: 'Akashi' !important;
+}
+
+
 .full {
-    background: url(../img/kietMunCover.jpg) no-repeat center center fixed;
+    background-color: #edc762;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+}
+
+.coverTitle{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'construthinvism';
 }
