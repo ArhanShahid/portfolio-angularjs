@@ -1,4 +1,4 @@
-mainApp.controller('homeController', function($scope,$document) {
+mainApp.controller('appController', function($scope,$document) {
 
     $scope.myInterval = 5000;
     $scope.noWrapSlides = false;
