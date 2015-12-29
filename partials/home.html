@@ -1,23 +1,97 @@
 <div class="full height100vh">
+    <div class="row" id="home">
+        <div class="col-md-offset-2 col-sm-offset-1 col-md-8 col-sm-8 marginTop23p">
+            <div class="textAlignCenter marginTop50">
+                <h2 class="coverTitle">Hello! I am Arhan Shahid <br/><strong>A Full Stack Web/Mobile App Developer</strong></h2>
+            </div>
+        </div>
+        <div class="col-md-offset-3 col-sm-offset-1 col-md-6 col-sm-10 marginTop9p">
+            <div class="col-md-4 col-xs-12">
+                <a href="#about" du-smooth-scroll du-scrollspy class="my-btn">About Me</a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <a href="#portfolio"  du-smooth-scroll du-scrollspy class="my-btn">Portfolio</a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <a href="#contact" du-smooth-scroll du-scrollspy class="my-btn">Contact</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="fullBlur height100vh" id="about">
     <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <div class="slide textAlignCenter marginTop50">
-                <p class="coverTitle">
+        <div class="col-md-12">
+            <carousel interval="myInterval" no-wrap="noWrapSlides">
+                <slide ng-repeat="slide in slides">
+                    <h2 style="height: 90vh">{{slide}}</h2>
+                </slide>
+            </carousel>
 
-                Arhan Shahid
-
-                </p>
+            <div class="goDown textAlignCenter">
+                <a href="#portfolio"  du-smooth-scroll du-scrollspy>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
             </div>
         </div>
     </div>
+</div>
+<div class="fullBlur height100vh" id="portfolio">
     <div class="row">
-        <div class="col-md-12 col-sm-12 textAlignCenter marginTop15">
+        <div class="col-md-offset-3 col-sm-offset-1 col-md-6 col-sm-10">
+            <h2 class="coverTitle textAlignCenter marginTop50">
+                <strong>Portfolio</strong>
+            </h2>
 
+            <div class="goDown textAlignCenter">
+                <a href="#contact"  du-smooth-scroll du-scrollspy>
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+            </div>
         </div>
     </div>
+</div>
+<div class="fullBlur height100vh" id="contact">
     <div class="row">
-        <div class="col-md-12 col-sm-12 textAlignCenter marginTop15">
-            <a ui-sref="main">Read More</a>
+
+        <div class="col-md-offset-2 col-sm-offset-1 col-md-8 col-sm-10">
+            <h2 class="coverTitle textAlignCenter marginTop50">
+                <strong>Follow Me</strong>
+            </h2>
+            <div class="col-md-offset-1 col-md-11 marginTo100">
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a class="icon github" href="https://github.com/arhanshahid" title="find me on Github" target="_blank">
+                            <span class="brandico-github"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon linkedin" href="https://pk.linkedin.com/in/arhanshahid" title="find me on LinkedIn" target="_blank">
+                            <span class="brandico-linkedin"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon twitter" href="https://twitter.com/arhan_shahid" title="find me on Twitter" target="_blank">
+                            <span class="brandico-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon googleplus" href="https://plus.google.com/u/0/109392584632078486212" title="find me on Google Plus" target="_blank">
+                            <span class="brandico-googleplus-rect"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon skype" href="skype:arhanshahid18?call" title="find me on skype" target="_blank">
+                            <span class="brandico-skype"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="goDown textAlignCenter" style="margin-top: 400px">
+                <a ng-click="toTheTop()">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+            </div>
         </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
-var mainApp = angular.module('mainApp',['ui.router','ngResource','ui.bootstrap']);
+var mainApp = angular.module('mainApp',['ui.router','ngResource','ui.bootstrap','duScroll']);
 
 mainApp.config(function($stateProvider, $urlRouterProvider,$locationProvider,$httpProvider) {
 
@@ -7,16 +7,9 @@ mainApp.config(function($stateProvider, $urlRouterProvider,$locationProvider,$ht
         .state('/', {
             url:'/',
             templateUrl: 'partials/home.html',
-            controller:'viewController',
-            controllerAs:'view'
+            controller:'homeController',
+            controllerAs:'home'
         })
-        .state('login', {
-            url:'/Login',
-            templateUrl: 'partials/login.html',
-            controller:'loginController',
-            controllerAs:'login'
-        })
-
 
 });
 
