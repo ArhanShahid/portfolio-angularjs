@@ -124,3 +124,13 @@ a.my-btn{
     color: #fff;
     text-decoration: none;
 }
+
+.aboutSlide{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: scroll;
+    color: #fff;
+    text-align: justify;
+    font-weight: 300;
+    font-size: large;
+}

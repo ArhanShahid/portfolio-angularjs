@@ -47,6 +47,9 @@
 .font333{
     color: #333333;
 }
+.fontFFF{
+    color: #fff;
+}
 .textAlignCenter{
     text-align: center;
 }
@@ -95,4 +98,8 @@
 }
 .height100vh{
     height: 100vh;
+}
+.height90vh{
+    height: 90vh;
+
 }
