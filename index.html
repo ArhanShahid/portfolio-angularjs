@@ -31,9 +31,8 @@
     <!-- JavaScript Libraries -->
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
-
-
 
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -73,16 +72,16 @@
     <div class="row">
         <div class="col-md-12">
 
-            <carousel interval="myInterval" no-wrap="noWrapSlides">
-                <slide class="height90vh aboutSlide">
+            <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+                <uib-slide class="height90vh aboutSlide">
                     <h2 class="pageTitle textAlignCenter marginTop50">
                         <strong>About Me</strong>
                     </h2>
                     <p class="marginTop15">Hello! I am Arhan Shahid. I am Software Engineer and I believe programming is the closest thing we have to Superpower. We can solve large number of daily life problems with technology.
                         <br/><br/> I am currently working as Team Lead, Software Engineering at WeTechs (wetechs.net) and making dreams come true with the vision to make this world a better place for us & for future generations trying to provide a better solution to humanity along with a team of experts focusing contemporary.
                         <br/><br/>  I've technical expertise in Web based solutions and Mobile application development using latest technologies including, Html5, BootStrap, Node.js, MongoDB, PhoneGap (Cordova), Ionic, Angular.js, Gulp.js, SASS. I am obsessed with better usability, user experience. I called my self a design minded developer. I believe we can achieve high performance and better result with better UX and interactive UI. I love public speaking and conducting training sessions. I've also expertise in conducting training on latest technologies and fundamental programming. I won several awards and member of several societies. I love to contribute in programming communities with answers, code snippets and tips and tricks. I'm available for contracting or consulting.</p>
-                </slide>
-                <slide class="height90vh aboutSlide">
+                </uib-slide>
+                <uib-slide class="height90vh aboutSlide">
                     <h2 class="pageTitle textAlignCenter marginTop50">
                         <strong>Specialties</strong>
                     </h2>
@@ -97,8 +96,8 @@
                         | jQuery | jQuery Mobile | jQuery Plugins
                         | Mobile Apps | Mobile webs | Cloud Computing
                         | Requirement Analysis | Analysis & Design</p>
-                </slide>
-                <slide class="height90vh aboutSlide">
+                </uib-slide>
+                <uib-slide class="height90vh aboutSlide">
                     <h2 class="pageTitle textAlignCenter marginTop50">
                         <strong>Experience</strong>
                     </h2>
@@ -112,11 +111,70 @@
                         <h3 class="marginTop10 fontWeightBold">Freelancer</h3>
                         <p>January – 2013 To November – 2013</p>
                     </div>
-                </slide>
-                <slide class="height90vh aboutSlide textAlignCenter">
-
-                </slide>
-            </carousel>
+                </uib-slide>
+                <uib-slide class="height90vh aboutSlide textAlignCenter">
+                    <h2 class="pageTitle textAlignCenter marginTop50">
+                        <strong>Honors & Awards</strong>
+                    </h2>
+                    <div class="textAlignCenter marginTop55">
+                        <h3 class="marginTop10 fontWeightBold">ACM ICPC ASIA Appreciation Award</h3>
+                        <p>November 2015</p>
+                        <h3 class="marginTop10 fontWeightBold">Head of IT - KIETMUN 201515</h3>
+                        <p>September 2015</p>
+                        <h3 class="marginTop10 fontWeightBold">ACM Special Contribution Award</h3>
+                        <p>April 2015</p>
+                        <h3 class="marginTop10 fontWeightBold">Best Project Award Internet and Intranet Architecture</h3>
+                        <p>March 2015</p>
+                        <h3 class="marginTop10 fontWeightBold">Head of Web Spark - COMBAT 2014</h3>
+                        <p>November 2014</p>
+                    </div>
+                </uib-slide>
+                <uib-slide class="height90vh aboutSlide textAlignCenter">
+                    <h2 class="pageTitle textAlignCenter marginTop50">
+                        <strong>Honors & Awards</strong>
+                    </h2>
+                    <div class="textAlignCenter marginTop55">
+                        <h3 class="marginTop10 fontWeightBold">Head of Web Development - COMBAT 2014</h3>
+                        <p>November 2014</p>
+                        <h3 class="marginTop10 fontWeightBold">Best Project Award Principle of Management</h3>
+                        <p>October 2014</p>
+                        <h3 class="marginTop10 fontWeightBold">Declamation Contest : Standing First</h3>
+                        <p>September 2014</p>
+                        <h3 class="marginTop10 fontWeightBold">Head of Web Spark - COMBAT 2013</h3>
+                        <p>April 2013</p>
+                    </div>
+                </uib-slide>
+                <uib-slide class="height90vh aboutSlide textAlignCenter">
+                    <h2 class="pageTitle textAlignCenter marginTop50">
+                        <strong>Certifications</strong>
+                    </h2>
+                    <div class="textAlignCenter marginTop55">
+                        <h3 class="marginTop10 fontWeightBold">Programming in HTML5 with JavaScript and CSS3 (Exam 70-480)</h3>
+                        <p>March 2013</p>
+                        <h3 class="marginTop10 fontWeightBold">Functional & Object-Oriented Programming using JavaScript</h3>
+                        <p>March 2013</p>
+                        <h3 class="marginTop10 fontWeightBold">HTML5 Mobile & Real-Time Web Application Development</h3>
+                        <p>June 2013</p>
+                        <h3 class="marginTop10 fontWeightBold">HTML5 Mobile & Real-Time Web Application Development</h3>
+                        <p>June 2013</p>
+                    </div>
+                </uib-slide>
+                <uib-slide class="height90vh aboutSlide textAlignCenter">
+                    <h2 class="pageTitle textAlignCenter marginTop50">
+                        <strong>Volunteer Work</strong>
+                    </h2>
+                    <div class="textAlignCenter marginTop55">
+                        <h3 class="marginTop10 fontWeightBold">Trainer at National University of Sciences & Technology (NUST)</h3>
+                        <p>November 2015</p>
+                        <h3 class="marginTop10 fontWeightBold">Trainer at Habib University</h3>
+                        <p>June 2015</p>
+                        <h3 class="marginTop10 fontWeightBold">Chapter Member & Trainer at ACM – KIET</h3>
+                        <p>November 2014</p>
+                        <h3 class="marginTop10 fontWeightBold">Trainer at PAF - Karachi Institute of Economics & Technology</h3>
+                        <p>January 2014</p>
+                    </div>
+                </uib-slide>
+            </uib-carousel>
 
             <!--<div class="goDown textAlignCenter">-->
             <!--<a href="#portfolio"  du-smooth-scroll du-scrollspy>-->
@@ -133,20 +191,22 @@
                 <strong>Portfolio</strong>
             </h2>
 
-            <carousel interval="myInterval" no-wrap="noWrapSlides">
-                <slide>
-                    <h2 style="height: 90vh">1</h2>
-                </slide>
-                <slide>
+            <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+                <uib-slide>
+                    <h2 style="height: 90vh">
+                        <a class="my-btn" ng-click="open('lg')">Large modal</a>
+                    </h2>
+                </uib-slide>
+                <uib-slide>
                     <h2 style="height: 90vh">2</h2>
-                </slide>
-                <slide>
+                </uib-slide>
+                <uib-slide>
                     <h2 style="height: 90vh">3</h2>
-                </slide>
-                <slide>
+                </uib-slide>
+                <uib-slide>
                     <h2 style="height: 90vh">4</h2>
-                </slide>
-            </carousel>
+                </uib-slide>
+            </uib-carousel>
 
             <!--<div class="goDown textAlignCenter">-->
             <!--<a href="#contact"  du-smooth-scroll du-scrollspy>-->
@@ -202,7 +262,8 @@
 </div>
 
 <script src="scripts/main.js"></script>
-<script src="scripts/appController.js"></script>
+<script src="scripts/controllers/appController.js"></script>
+<script src="scripts/controllers/projectController.js"></script>
 
 </body>
 
