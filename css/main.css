@@ -4,7 +4,6 @@
 
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
 *{
     margin: 0;
@@ -46,7 +45,7 @@ body {
     overflow: hidden;
 }
 .fullBlur {
-    background: url(../img/myCoverBlur.jpg) no-repeat center center fixed;
+    background: url(../img/pcover.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -90,7 +89,7 @@ a.my-btn{
     font-weight: bold;
     margin: 0px 0 25px 0;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #333333;
 }
 
 .coverTitle{
@@ -106,9 +105,11 @@ a.my-btn{
     background-image: none;
 }
 .glyphicon-chevron-right{
+    color: #333;
     margin-right: -60px;
 }
 .glyphicon-chevron-left{
+    color: #333;
     margin-left: -60px;
 }
 .modal-dialog {
@@ -148,4 +149,12 @@ a.my-btn{
     text-align: justify;
     font-weight: 300;
     font-size: 1.3em;
+}
+
+.carousel-indicators li{
+    border: 1px solid #333;
+}
+
+.carousel-indicators .active{
+    background-color: #333;
 }
