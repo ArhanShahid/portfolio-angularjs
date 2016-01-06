@@ -25,6 +25,9 @@
 }
 .icon:hover{
     color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .icon:active{
     /*box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;*/
