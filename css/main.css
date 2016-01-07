@@ -129,6 +129,32 @@ a.my-btn{
     color: #333;
 }
 
+.topAlign{
+    position: absolute;
+    right: 15px;
+    top: 60px;
+}
+
+.goClose{
+
+    text-align: right;
+    font-size: 1.3em;
+}
+.goClose a{
+    padding:15px 17px;
+    border: 1px solid #333;
+    color: #333;
+    text-decoration: none;
+}
+.goClose a:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.2);
+    color: #333;
+}
+
 
 .aboutSlide{
     margin-left: 15%;
@@ -142,7 +168,7 @@ a.my-btn{
 
 .footer{
     background-color: #333;
-    height: 400px;
+
 }
 .contactIconAlign{
     margin-top: 100px;
@@ -157,19 +183,40 @@ a.my-btn{
     padding-top: 15px;
 }
 
+.portfolio{
+    height: 500px;
+    overflow: scroll;
+}
+.portfolioItems{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.projectTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'akashi', 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.projectSlides{
+    margin: 50px;
+}
+.singleSlide{
+   padding: 10px 90px 60px 90px;
+}
+
+
 .profile-img-container {
     position: relative;
     display: inline-block;
     overflow: hidden;
     width: 200px;
-    height: 200px;
+    height: 250px;
     border: 1px solid rgba(0,0,0,.1);
 }
 
 .profile-img-container:hover {
 
 }
-
 
 .profile-img-container img:hover {
     opacity: 0.1;
@@ -182,7 +229,7 @@ a.my-btn{
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(255,255,255,.95);
 
 }
 

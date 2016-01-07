@@ -48,8 +48,9 @@
     color: #333333;
 }
 .fontFFF{
-    color: #fff;
+    color: #fff !important;
 }
+
 .textAlignCenter{
     text-align: center;
 }

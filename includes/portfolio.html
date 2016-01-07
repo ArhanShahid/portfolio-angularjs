@@ -1,61 +1,25 @@
-<div class="siteBG" style="height: 500px" id="portfolio">
+<div class="siteBG portfolio" id="portfolio">
     <div class="row">
         <div class="col-md-12">
             <h2 class="pageTitle textAlignCenter marginTop50">
                 <strong>Portfolio</strong>
             </h2>
-            <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
-                <uib-slide class="font333" style="height: 300px">
-                    <!--<h2>-->
-                    <!--<a class="my-btn" ng-click="open('lg')">Large modal</a>-->
-                    <!--</h2>-->
+            <uib-carousel class="font333" interval="myInterval" no-wrap="noWrapSlides">
+                <uib-slide>
+                    <div class="col-md-offset-2 col-md-8 portfolioItems">
+                        <div class="col-md-3">
+                            <div class=" profile-img-container">
+                                <img src="img/projects/combat/thumbnail.PNG" class="img-responsive" />
+                                <a ng-click="combat('lg')"><span class="fa fa-search-plus fa-4x"></span></a>
 
-                    <div class="col-md-offset-2 col-md-8">
-                        <div class="col-md-3">
-                            <div class=" profile-img-container">
-                                <!--<img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" class="img-thumbnail img-responsive" />-->
-                                <a ng-click="open('lg')"><span class="fa fa-search-plus fa-2x"></span></a>
+                                <div class="projectTitle">COMBAT 14</div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class=" profile-img-container">
-                                <!--<img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" class="img-thumbnail img-responsive" />-->
-                                <a ng-click="open('lg')"><span class="fa fa-search-plus fa-2x"></span></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class=" profile-img-container">
-                                <!--<img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" class="img-thumbnail img-responsive" />-->
-                                <a ng-click="open('lg')"><span class="fa fa-search-plus fa-2x"></span></a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class=" profile-img-container">
-                                <!--<img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" class="img-thumbnail img-responsive" />-->
-                                <a ng-click="open('lg')"><span class="fa fa-search-plus fa-2x"></span></a>
-                            </div>
-                        </div>
-
                     </div>
 
-
-
-
-
-
-
-
-
                 </uib-slide>
-                <uib-slide class="font333">
-                    <h2>2</h2>
-                    <p>Adsadsda</p>
-                </uib-slide>
-                <uib-slide class="font333">
-                    <h2>3</h2>
-                </uib-slide>
-                <uib-slide class="font333">
-                    <h2>4</h2>
+                <uib-slide>
+
                 </uib-slide>
             </uib-carousel>
         </div>
