@@ -13,14 +13,11 @@ mainApp.controller('appController', function($scope,$document,$uibModal) {
         $scope.animationsEnabled = !$scope.animationsEnabled;
     };
 
-
-
-
-    $scope.combat = function (size) {
+    $scope.projectModal = function (size,title) {
 
         var modalInstance = $uibModal.open({
             animation: $scope.animationsEnabled,
-            templateUrl: 'projects/combat.html',
+            templateUrl: 'projects/'+title+'.html',
             controller: 'projectController',
             size: size,
             resolve: {
