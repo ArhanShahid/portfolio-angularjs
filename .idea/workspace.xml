@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e40728d0-6193-42a4-971b-6ca64b815fb9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/story.html" afterPath="$PROJECT_DIR$/includes/story.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/portfolio.html" afterPath="$PROJECT_DIR$/includes/portfolio.html" />
     </list>
     <ignored path="John Bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +59,6 @@
         <option value="$PROJECT_DIR$/projects/combat.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/general-css-rules.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/projects/healthco.html" />
         <option value="$PROJECT_DIR$/scripts/controllers/appController.js" />
         <option value="$PROJECT_DIR$/projects/databits.html" />
@@ -73,8 +73,9 @@
         <option value="$PROJECT_DIR$/projects/biker.html" />
         <option value="$PROJECT_DIR$/projects/addiction.html" />
         <option value="$PROJECT_DIR$/projects/trailschat.html" />
-        <option value="$PROJECT_DIR$/includes/portfolio.html" />
         <option value="$PROJECT_DIR$/includes/story.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/includes/portfolio.html" />
       </list>
     </option>
   </component>
@@ -114,8 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -126,6 +125,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1340388">
-          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controllers/appController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13996628">
@@ -594,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2733686">
-          <caret line="105" column="34" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/trailschat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49029982">
@@ -612,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.119929455">
           <caret line="4" column="72" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,6 +606,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65608466">
           <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58978873">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9788359">
+          <caret line="129" column="63" selection-start-line="129" selection-start-column="63" selection-end-line="129" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -627,7 +628,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029982364">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding />
         </state>
       </provider>

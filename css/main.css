@@ -45,6 +45,14 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+.siteBG2 {
+    background: url(../img/pcoverw.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
 
 .my-btn {
     margin: 10px;
